@@ -1,0 +1,36 @@
+
+body{
+  font-family: Verdana, sans-serif;
+}
+
+
+#titulo{
+    font-size: 16px;
+    color:lightslategray;
+}
+
+.container{
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+table{
+  width: 100%;
+}
+thead{
+  text-align: left;
+  background: lightgray;
+}
+.cabecario-tabela{
+  background: #d3d3d3;
+
+}
+
+.info-produto{
+  display: flex;
+  align-items: center;
+}
+.info-produto > img{
+  width: 100px;
+}
