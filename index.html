@@ -10,14 +10,14 @@
 </head>
 <body>
     <header class="container">
-        <h1 id="titulo">Top Products</h1>
+        <h1 class="titulo">Top Products</h1>
     </header>
 
 		<main>
 			<section class="container">
 				<table>
 					<thead>
-						<tr id="cabecario-tabela">
+						<tr class="cabecario-tabela">
 							<th>Produto</th>
 							<th>Estoque</th>
 							<th>Total</th>
@@ -27,22 +27,42 @@
 					<tbody id="tabela-produtoss">
 						<tr class="produto" >
 							<td class="info-produto"><img src="img/mochila-rosa.png" alt="">
-								<p>Mochila Peacoat</p>
+								<p class="info-titulo">Mochila Peacoat</p>
 							</td>
-							<td class="info-estoque">320 produtos</td>
-							<td class="info-estoque">$80</td>
-						</tr>
 
-						<tr class="produto" >
-							<td class="info-produto"><img src="img/mochila-rosa.png" alt="">
-								<p>Mochila Peacoat</p>
+							<td class="info-estoque">
+								<p id="destaque-estoque" class="info-titulo">320 produtos</p>
 							</td>
-							<td class="info-estoque">320 produtos</td>
-							<td class="info-estoque">$80</td>
+
+							<td class="info-estoque">
+								<p class="info-titulo">$80</p>
+							</td>
 						</tr>
 					</tbody>
 				</table>
+			</section>
 
+			<section class="container info-fomrulario">
+				<h2 class="titulo">Adicionar novo produto</h2>
+					<!--<ul id="mesagem-erro" class="mesagem-erro"></ul-->
+				<form id="formulario">
+					<div class="grupo">
+						<label for="produto">Produto</label>
+						<input id="produto" name="produto" type="text" placeholder="digite aqui" class="campo">
+					</div>
+
+					<div class="grupo">
+						<label for="estoque">Estoque:</label>
+						<input id="peso" name="estoque" type="text" placeholder="digite aqui" class="campo campo-medio">
+					</div>
+
+					<div class="grupo">
+						<label for="valor">Valor:</label>
+						<input id="valor" name="valor" type="text" placeholder="digite aqui" class="campo campo-medio">
+					</div>
+
+					<button id="adicionar-produto" class="botao bto-principal">Adicionar</button>
+				</form>
 			</section>
 		</main>
 </body>

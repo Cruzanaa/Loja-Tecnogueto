@@ -4,9 +4,11 @@ body{
 }
 
 
-#titulo{
+.titulo{
     font-size: 16px;
     color:lightslategray;
+    margin-top: 50px;
+    font-weight: normal;
 }
 
 .container{
@@ -15,16 +17,27 @@ body{
   margin: 0 auto;
 }
 
+/*-- TABELA --*/
+
+.cabecario-tabela{
+  background-color: antiquewhite;
+}
+
+.cabecario-tabela > th{
+  font-size: 14px;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+
+.info-titulo{
+  font-size: 14px;
+}
+
 table{
   width: 100%;
-}
-thead{
-  text-align: left;
-  background: lightgray;
-}
-.cabecario-tabela{
-  background: #d3d3d3;
-
+  margin-top: 50px;
 }
 
 .info-produto{
@@ -33,4 +46,23 @@ thead{
 }
 .info-produto > img{
   width: 100px;
+}
+
+#destaque-estoque{
+  background: greenyellow;
+  border-radius: 10px;
+}
+
+
+
+/*-- FORUMULARIO --*/
+.info-formulario{
+  margin-top: 80px;
+}
+.grupo label{
+  font-size: 14px;
+}
+
+.campo{
+  width: 40%;
 }
