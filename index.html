@@ -9,12 +9,11 @@
 
 </head>
 <body>
-    <header class="container">
-        <h1 class="titulo">Top Products</h1>
-    </header>
+	<main class="container">
+		<header>
+			<p class="titulo">Top Products</p>
+		</header>
 
-		<main>
-			<section class="container">
 				<table>
 					<thead>
 						<tr class="cabecario-tabela">
@@ -24,28 +23,42 @@
 						</tr>
                     </thead>
                     
-					<tbody id="tabela-produtoss">
+					<tbody id="tabela-produtoss"><!--PRODUTO 1-->
 						<tr class="produto" >
 							<td class="info-produto"><img src="img/mochila-rosa.png" alt="">
 								<p class="info-titulo">Mochila Peacoat</p>
 							</td>
 
 							<td class="info-estoque">
-								<p id="destaque-estoque" class="info-titulo">320 produtos</p>
+								<p id="destaque-estoque" class="info-titulo">320 estoque</p>
 							</td>
 
-							<td class="info-estoque">
-								<p class="info-titulo">$80</p>
+							<td class="info-preco">
+								<p class="info-titulo">$29,90</p>
 							</td>
+						</tr>
+
+
+						<tr class="produto" >
+								<td class="info-produto"><img src="img/mochila-rosa.png" alt="">
+									<p class="info-titulo">Mochila Peacoat</p>
+								</td>
+	
+								<td class="info-estoque">
+									<p id="destaque-estoque" class="info-titulo">320 estoque</p>
+								</td>
+	
+								<td class="info-preco">
+									<p class="info-titulo">$29,90</p>
+								</td>
 						</tr>
 					</tbody>
 				</table>
-			</section>
-
-			<section class="container info-fomrulario">
-				<h2 class="titulo">Adicionar novo produto</h2>
+			
+				
 					<!--<ul id="mesagem-erro" class="mesagem-erro"></ul-->
-				<form id="formulario">
+			<form id="Formulario">
+				<p class="titulo">Adicionar novo produto</p>
 					<div class="grupo">
 						<label for="produto">Produto</label>
 						<input id="produto" name="produto" type="text" placeholder="digite aqui" class="campo">
@@ -62,8 +75,8 @@
 					</div>
 
 					<button id="adicionar-produto" class="botao bto-principal">Adicionar</button>
-				</form>
-			</section>
+			</form>
+		
 		</main>
 </body>
 </html>

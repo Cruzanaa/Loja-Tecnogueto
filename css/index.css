@@ -7,7 +7,6 @@ body{
 .titulo{
     font-size: 16px;
     color:lightslategray;
-    margin-top: 50px;
     font-weight: normal;
 }
 
@@ -15,24 +14,29 @@ body{
   width: 60%;
   height: auto;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 /*-- TABELA --*/
+th{
+  padding: 20px;
+}
 
 .cabecario-tabela{
-  background-color: antiquewhite;
+  background-color: #f5f6fa;
 }
 
 .cabecario-tabela > th{
   font-size: 14px;
   text-align: left;
   padding-left: 20px;
-  font-weight: normal;
+  color: #c4c6d0;
 }
 
 
 .info-titulo{
   font-size: 14px;
+  text-align: center;
 }
 
 table{
@@ -50,12 +54,16 @@ table{
 
 #destaque-estoque{
   background: greenyellow;
+  padding: 8px;
   border-radius: 10px;
 }
 
 
 
 /*-- FORUMULARIO --*/
+#Formulario{
+  margin-top: 80px;
+}
 .info-formulario{
   margin-top: 80px;
 }
